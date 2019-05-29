@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harbans Industries</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>	
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+	
+</script>
+<script>
+$(document).ready(function(){
+  $(".hey").mouseover(function(){
+    $(".meel").css("display", "block");
+  });
+  $(".hey").mouseout(function(){
+    $(".meel").css("display", "hidden");
+  });
+});
+</script>
+</head>
+<!-- External CSS-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<body style="background-image: url(images/gra4.png);">	
+	 <!--<div id="myCarousel" class="carousel slide" data-ride="carousel" style="position: absolute; top: 0px;">
+	    Wrapper for slides 
+	    <div class="carousel-inner">
+  		    <div class="item ">
+    	 	   <img src="images/pic6.jpeg" alt='image'>
+    		</div>
+       		<div class="item active ">
+    		    <img src="images/pic5.jpg" alt='image'>
+      		</div>
+       		<div class="item ">
+        		<img src="images/pic4.jpg" alt='image'>
+      	    </div>
+		</div>
+	</div>-->
+	<!--Navbar-->
+	<nav>
+		<ul id="nav1" >
+			Harbans Industries
+		</ul>	
+		<ul id="nav2">
+			<li><a href="contact.html">Contact Us</a></li>
+			<li>|</li>
+			<li><a href="products.html">Products</a></li>
+			<li>|</li>
+			<li><a href="index.html">Home</a></li>
+		</ul>		
+	</nav>
+	
+
+
+	<section style="padding-top: 7%;margin: 0% 5%;">
+		<div>
+			<div class="pro_box1"> 
+				<div>Categories</div> 
+				<div style="height: 1px;background-color: black; width: 70%;margin: auto;margin-bottom: 7%;"></div>
+				<a href="#">Category1</a>
+				<a href="#">Category2</a>
+				<a href="#">Category3</a>
+			</div>
+			<div  class="pro_box2">
+				<div class="pro_box21" class="hey">
+					<img src="images/demo.jpg">
+					Lorem <a  data-toggle="modal" data-target="#myModal">(More info..)</a>
+			
+
+				</div>	
+				<div class="pro_box21">
+					<img src="images/demo.jpg">
+					Lorem
+				</div>		
+				<div class="pro_box21">
+					<img src="images/demo.jpg">
+					Lorem
+				</div>	
+				<div class="pro_box21">
+					<img src="images/demo.jpg">
+					Lorem
+				</div>		
+				<div class="pro_box21">
+					<img src="images/demo.jpg">
+					Lorem
+				</div>	
+			</div>
+		</div>
+	</section>
+	<div class="meel" >
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<div class="container">
+   <!-- Trigger the modal with a button -->
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" class="me">
+    <div class="modal-dialog ">
+
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+      	<div class="modal-header">
+        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		    <b>Name</b>
+        </div>
+        <div class="modal-body">
+        	<div class="modal_left">
+          		<img src="images/demo.jpg">	<br>
+          		<button type="button" class="btn btn-primary" >Send Query</button>      	
+          	</div>
+         	<div class="modal_right">
+         	 	<div><b>Name:-</b> Demo name <div>
+         	 	<div><b>Details:-</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         	 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         	 	quis nostrud exercitation. <div>
+         	 	<div class="modal_right_share">
+         	 	 <b>Share</b><br>
+         	 	 <i class="fab fa-whatsapp" style="font-size:28px;color:#25D366"></i>
+         	 	 <i class="fa fa-facebook-official" style="font-size:28px;color:#395599"></i>
+         	 	 <i class="fa fa-twitter" style="font-size:28px;color:#19ADE2"></i>
+         	    </div>
+        	</div>
+      </div>
+       
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+</body>
+</html>

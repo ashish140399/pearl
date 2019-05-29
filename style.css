@@ -30,7 +30,7 @@ body{
 nav {
 	padding: 0.5% 0.5%;
 	display: inline-block;
-	margin-top: 0;
+	margin-top: 0%;
 	background-color: rgba(255, 255, 255,0.9);
 	position: fixed;
 	width: 100%;
@@ -171,8 +171,12 @@ nav ul{
 	border-top-left-radius: 10%;
 }
 
+.card:hover{
+	transform: translateY(-20px);	
+	 box-shadow: 0px 9px 8px -7px black;
+}
 .col-sm-4{
-	padding: 0% 2%;
+	padding: 2% 2%;
 }
 .card-title{
 	color: #121212;
@@ -305,4 +309,115 @@ footer:before{
 	color: #2E4A62;
 	border: 1px solid #2E4A62;
 	box-shadow: 3px 2px 2px -1px #2E4A62;
+}
+
+
+
+
+
+/***************  PRODUCTS ****************/
+
+
+.pro_box1{
+	box-sizing: border-box;
+	width: 20%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 2%;
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(255, 255, 255,0.7);
+}
+.pro_box1 a{
+	display: block;
+	font-size: 18px;
+	padding: 3% 0%;
+	
+}
+.pro_box1 div{
+	font-size: 26px;
+}
+
+.pro_box2{
+	box-sizing: border-box;
+	width: 80%;
+	
+	padding:  0% 5%;
+	display: inline-block;
+}
+
+.pro_box21 img{
+	width: 100%;
+	display: inline-block;
+	float: left;
+
+}
+.pro_box21 {
+
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	padding: 1%;
+	margin: 0% 2% 2% 0%;
+	background-color: rgba(255, 255, 255,0.7);
+	width: 30%;
+}
+
+.modal_left{
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 1%;
+	float: left;
+	width: 30%;
+}
+.modal_left img{
+	width: 80%;
+	margin-bottom: 3%;
+}
+
+.modal_right{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 70%;
+	padding: 1%;
+	padding-left: 4%;
+
+}
+
+.modal_right div{
+	padding: 5px 0px;
+}
+.modal-content{
+	padding-bottom: 5%;
+}
+.modal-dialog{
+	width: 80%;
+	position: relative;
+}
+
+.modal-dialog {
+padding-top:5%;
+}
+
+.modal-content {
+  overflow:visible;
+}
+
+.modal-body {
+  height: 80%;
+  overflow: auto;
+}
+
+.modal_right_share i{
+	padding: 5px ;
+
+}
+
+
+.meel{
+	background-color: green;width: 400px;
+}
+
+.hey:hover> .meel{
+	display: block;
 }
