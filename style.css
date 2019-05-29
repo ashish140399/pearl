@@ -342,82 +342,64 @@ footer:before{
 	box-sizing: border-box;
 	width: 80%;
 	
-	padding:  0% 5%;
+	padding:  0% 2%;
 	display: inline-block;
 }
 
-.pro_box21 img{
-	width: 100%;
-	display: inline-block;
-	float: left;
 
-}
 .pro_box21 {
-
 	box-sizing: border-box;
 	display: inline-block;
 	float: left;
 	padding: 1%;
-	margin: 0% 2% 2% 0%;
+	margin:  0% 0.5% 1% 0.5% ;
 	background-color: rgba(255, 255, 255,0.7);
-	width: 30%;
-}
-
-.modal_left{
-	box-sizing: border-box;
-	display: inline-block;
-	padding: 1%;
-	float: left;
-	width: 30%;
-}
-.modal_left img{
-	width: 80%;
-	margin-bottom: 3%;
-}
-
-.modal_right{
-	box-sizing: border-box;
-	display: inline-block;
-	width: 70%;
-	padding: 1%;
-	padding-left: 4%;
-
-}
-
-.modal_right div{
-	padding: 5px 0px;
-}
-.modal-content{
-	padding-bottom: 5%;
-}
-.modal-dialog{
-	width: 80%;
-	position: relative;
-}
-
-.modal-dialog {
-padding-top:5%;
-}
-
-.modal-content {
-  overflow:visible;
-}
-
-.modal-body {
-  height: 80%;
-  overflow: auto;
-}
-
-.modal_right_share i{
-	padding: 5px ;
-
+	width: 31%;
 }
 
 
-.meel{
-	background-color: green;width: 400px;
+
+
+
+
+.info_box {
+  position: relative;
+  width: 100%;
 }
 
-.hey:hover> .meel{
-	display: block;
+.image {
+  display: block;
+  position: relative;
+  width: 100%;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(43,43,43,0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.info_box:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  opacity: 1;
+  font-family: "open sans";
+  padding: 2%;
+ 
 }
