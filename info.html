@@ -73,7 +73,7 @@
 				<div class="img-zoom-container" style="width: 400px;height:400px;" >	
 					<img src="images/demo1.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation1" >
 					<img src="images/demo2.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation2" >
-					<img src="images/demo1.png" id="myimage">				  
+					<img src="images/demo1.png" id="myimage" onmouseover="runfunction()">				  
 				</div>
 			</div>	
 			
@@ -95,8 +95,11 @@
 function changeImage(a) {
        // document.getElementById("myimage").src=a;
         $('#myimage').attr('src', a);
-        imageZoom("myimage", "myresult");
+        
     }
+function runfunction(){
+	imageZoom("myimage", "myresult");
+} 
  //   if(document.getElementById("myimage").src==document.getElementById("operation1").src){
    // 	=imageZoom("operation1", "myresult");
     //}
