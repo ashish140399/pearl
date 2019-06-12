@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+	.nav_e{
+	display: none;
+	}
+	.nav_c{
+		display: block;
+	}
+
+
+}

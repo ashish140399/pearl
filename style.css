@@ -17,6 +17,7 @@ html,body{
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	font-size: 1em;
 }
 
 body{
@@ -25,7 +26,9 @@ body{
 	background: #F0EDE5;
 }
 
-
+.navbar{
+	margin: 0.5em 3em;
+}
 
 /*
 nav {
@@ -50,7 +53,7 @@ nav li a{
 	color: black;
 	text-decoration:none;
 	font-family: "raleway";
-	font-size: 20px;
+	font-size: 1.3em;
 }
 
 nav li a:hover{
@@ -63,6 +66,13 @@ nav li a.current{
 
 nav ul{
 	display: inline-block;
+}
+
+.nav_e{
+	display: block;
+}
+.nav_c{
+	display: none;
 }
 
 .fixed_btn{
@@ -98,40 +108,43 @@ nav ul{
 	bottom: 10px;
 	position: fixed;
 }
-#nav1{
-	width: 30%;
+.navbar-header{
+	float: left;
+}
+.navbar-brand{
+	/*width: 30%;
+	float: left;*/
 	box-sizing: border-box;
 	font-family: 'Pacifico', cursive;
-	float: left;
+	
 	font-weight: normal;
 	color: #585858;
-	font-size: 30px;
+	font-size:2em;
 
 }
-#nav2{
+.navbar-nav{/*
 	width: 70%;
 	padding-top: 0.8%;
 	padding-right: 2%;
 
 	box-sizing: border-box;
 
-	
+	*/
+	float: right;
 
 }
 .home_centre{
-	
 	position: absolute;
 	z-index: 3;
 	left: 50%;
-	top: 40%;
-	
+	top: 50%;
+	transform: translate(-50%,-50%);
 	color: white;
-	
-	font-size: 80px;
+	font-size: 5em;
 	font-weight: 100;
 }
 #myCarousel{
-	filter: blur(5px);
+	/*filter: blur(5px);*/
 }
 
 #typedtext{

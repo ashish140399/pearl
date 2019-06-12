@@ -25,21 +25,24 @@ $(function(){
 
 <!-- External CSS-->
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="query.css">
 
 <body>
 	<!--Navbar-->
 	
-	<nav>
-		<ul id="nav1" >
-			Harbans Industries
-		</ul>				
-		<ul id="nav2" >
-			<li><a href="contact.html">Contact Us</a></li>
-			<li>|</li>
+	<nav class="navbar ">
+		<div class="navbar-header">
+      		<a class="navbar-brand" href="#">Harbans Industries</a>
+   		</div>	
+   		<div>		
+		<ul class="nav navbar-nav nav_e">
+			<li class="active"><a href="contact.html">Home</a></li>
 			<li><a href="products.html">Products</a></li>
-			<li>|</li>
-			<li class="active"><a  href="index.html" >Home</a></li>
-		</ul>		
+			<li><a  href="index.html" >Contact Us</a></li>
+		</ul>	
+		<ul  class="nav navbar-nav nav_c">
+			<li><a class="disabled"><i class="fas fa-bars"></i></a></li>
+		</ul>
 	</nav>
 	<div class="fixed_btn">
 		<a href=""><img src="images/message.jpg" id="fix_msg"></a>
@@ -50,7 +53,7 @@ $(function(){
 	</div>
 
 	<div class="home_centre">		
-		<div style="position: relative;left: -50%;top: -50%; z-index: 10;" id="typedtext"></div>
+		<div id="typedtext"></div>
 	</div>
 
 	<!--Carousel-->
