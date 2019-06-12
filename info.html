@@ -71,8 +71,8 @@
 			</div>
 			<div class="col-sm-5">	
 				<div class="img-zoom-container" style="width: 400px;height:400px;" >	
-					<img src="images/demo1.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation1" >
-					<img src="images/demo2.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation2" >
+				<!--	<img src="images/demo1.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation1" >
+					<img src="images/demo2.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation2" >-->
 					<img src="images/demo1.png" id="myimage" onmouseover="runfunction()">				  
 				</div>
 			</div>	
@@ -95,7 +95,7 @@
 function changeImage(a) {
        // document.getElementById("myimage").src=a;
         $('#myimage').attr('src', a);
-        imageZoom("myimage", "myresult");
+        imageZoom("myimage", "myresult");	
         
     }
 function runfunction(){
