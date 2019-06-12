@@ -27,7 +27,7 @@ body{
 
 
 
-
+/*
 nav {
 	padding: 0.5% 0.5%;
 	display: inline-block;
@@ -44,7 +44,7 @@ nav li{
 	font-size: 20px;
 	padding-right: 1%;
 	float: right;
-}
+}*/
 
 nav li a{
 	color: black;
