@@ -12,17 +12,15 @@
   .home_centre{
 		font-size: 3em;
 	}
-	.con_i2q{
+	.con_i2q, .con_i2, .con_iq, .con_i{
 	display:block;
 	}
-	.con_i2{
-	display:block;
+
+	.pro_box1 div{
+		font-size: 1.2em;
 	}
-	.con_iq{
-	display:block;
-	}
-	.con_i{
-	display:block;
+	.pro_box1 a{
+		font-size: 1em;
 	}
 }
 

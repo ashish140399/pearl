@@ -323,42 +323,28 @@ footer:before{
 
 
 .pro_box1{
-	box-sizing: border-box;
-	width: 20%;
-	float: left;
-	padding-top: 10px;
-	padding-bottom: 2%;
-	display: inline-block;
 	text-align: center;
 	background-color: rgba(255, 255, 255,0.7);
+	padding:5% 0% 20% 0%;
+	margin: 15px 0px 15px 0px;
 }
 .pro_box1 a{
 	display: block;
-	font-size: 18px;
-	padding: 3% 0%;
+	font-size: 1.2em;
+	padding: 2% 0%;
 	
 }
 .pro_box1 div{
-	font-size: 26px;
+	font-size: 1.5em;
 }
 
-.pro_box2{
-	box-sizing: border-box;
-	width: 80%;
-	
-	padding:  0% 2%;
-	display: inline-block;
-}
 
 
 .pro_box21 {
-	box-sizing: border-box;
-	display: inline-block;
-	float: left;
-	padding: 1%;
-	margin:  0% 0.5% 1% 0.5% ;
 	background-color: rgba(255, 255, 255,0.7);
-	width: 31%;
+	padding: 0.5em;
+	margin: 15px 0px 15px 0px;
+	
 }
 
 
@@ -389,6 +375,30 @@ footer:before{
 }
 
 
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.info_box:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  text-align: center;
+}
 
 
 
