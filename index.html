@@ -1,49 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Harbans Industriea</title>
+<title>Harbans Industries</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!-------BOOTSTRAP 4-------->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-----FONTAWESOME AND GOOGLE FONTS----->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,300,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-<script>
-$(function(){
-  $('a').each(function() {
-    if ($(this).prop('href') == window.location.href) {
-      $(this).addClass('current');
-    }
-  });
-});
-	
-</script>
-  
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>  
 </head>
 
 <!-- External CSS-->
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="query.css">
-
 <body>
-	<!--Navbar-->
 	
-	<nav class="navbar ">
-		<div class="navbar-header">
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-sm d-flex justify-content-between navbari">
+		<!--div class="navbar-header"-->
       		<a class="navbar-brand" href="#">Harbans Industries</a>
-   		</div>	
-   		<div>		
-		<ul class="nav navbar-nav nav_e">
-			<li class="active"><a href="contact.html">Home</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a  href="index.html" >Contact Us</a></li>
+   		<!--/div-->	
+		<ul class=" navbar-nav nav_e">
+			<li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+			<li class="nav-item"><a class="nav-link" href="contact.html" >Contact Us</a></li>			
 		</ul>	
 		<ul  class="nav navbar-nav nav_c">
-			<li><a class="disabled"><i class="fas fa-bars"></i></a></li>
+			<li><a class="disabled"><i class="fas fa-bars hm_togglea" ></i></a></li>	
+			
 		</ul>
 	</nav>
+
+	<!------navbar toggle-------->
+	<nav class="hb_toggle">
+		<div>
+			<ul class="navbar-nav justify-content-end mt-3">
+				<li><a class="nav-item hm_toggleda"><i class="fas fa-times hm_toggled" style="font-size:1.5em;"></i></a>
+				</li>
+			</ul>
+			<div class="hb_toggle_n">
+				<ul class="navbar-nav ">
+					<li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.html" >Contact Us</a></li>	
+				</ul>	
+			</div>
+		</div>
+	</nav>
+
+	<!-----Fixed Button---->
 	<div class="fixed_btn">
 		<a href=""><img src="images/message.jpg" id="fix_msg"></a>
 		<div class="fix_options">
@@ -52,118 +69,119 @@ $(function(){
 		</div>
 	</div>
 
+	<!---MY CAROUSEL----->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">  
+	  <!-- The slideshow -->
+	  <div class="carousel-inner">
+	    <div class="carousel-item ">
+	      <img src="images/pic6.jpeg" alt="Carousel images" >
+	    </div>
+	    <div class="carousel-item active">
+	      <img src="images/pic5.jpg" alt="Carousel images" >
+	    </div>
+	    <div class="carousel-item">
+	      <img src="images/pic4.jpg" alt="Carousel images">
+	    </div>
+	  </div>
+	</div>
+
+	<!------Centre text--->
 	<div class="home_centre">		
 		<div id="typedtext"></div>
 	</div>
 
-	<!--Carousel-->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	    <!-- Wrapper for slides -->
-	    <div class="carousel-inner">
-  		    <div class="item ">
-    	 	   <img src="images/pic6.jpeg" alt='image'>
-    		</div>
-       		<div class="item active ">
-    		    <img src="images/pic5.jpg" alt='image'>
-      		</div>
-       		<div class="item ">
-        		<img src="images/pic4.jpg" alt='image'>
-      	    </div>
-		</div>
-	</div>
-	<!--<button class="fixed_btn">Instant Messaging</button>-->
 
-<section id="section1">
-	<div class="section1_heading">
-		Our Collection
-	</div>
-	<div class="row">
-		<div class="col-sm-4" >
-			<div class="card" >
-			<img class="card-img-top" src="images/pic3.jpg" alt="Card image" style="width:100%">
-			   	<div class="card-body">
-			        <h4 class="card-title">Category 1</h4>
-			        <p class="card-text">
-			        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					</p>
-			        <!--<a href="#" class="btn btn-primary" disabled = "disabled">See </a>-->
-			    </div>
-			</div>						
+	<!--------Section 1--------->
+	<section id="section1">
+		<div class="section1_heading">
+			Our Collection
 		</div>
-		<div class="col-sm-4">
-			<div class="card">
-			<img class="card-img-top" src="images/pic3.jpg" alt="Card image" style="width:100%">
-			   	<div class="card-body">
-			        <h4 class="card-title">Category 1</h4>
-			        <p class="card-text">
-			        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					</p>
-			        <!--<a href="#" class="btn btn-primary" disabled = "disabled">See </a>-->
-			    </div>
-			</div>						
+		<div class="row ">
+			<div class="col-md-4 col-sm-6 cardc" >
+				<div class="card" >
+				<img class="card-img-top" src="images/pic3.jpg" alt="Card image" style="width:100%">
+				   	<div class="card-body">
+				        <h4 class="card-title">Category 1</h4>
+				        <p class="card-text">
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						</p>
+				        <!--<a href="#" class="btn btn-primary" disabled = "disabled">See </a>-->
+				    </div>
+				</div>						
+			</div>
+			<div class="col-md-4 col-sm-6 cardc">
+				<div class="card">
+				<img class="card-img-top" src="images/pic3.jpg" alt="Card image" style="width:100%">
+				   	<div class="card-body">
+				        <h4 class="card-title">Category 2</h4>
+				        <p class="card-text">
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						</p>
+				        <!--<a href="#" class="btn btn-primary" disabled = "disabled">See </a>-->
+				    </div>
+				</div>						
+			</div>
+			<div class="col-md-4 col-sm-6 cardc">
+				<div class="card" >
+				<img class="card-img-top" src="images/pic3.jpg" alt="Card image" style="width:100%">
+				   	<div class="card-body">
+				        <h4 class="card-title">Category 3</h4>
+				        <p class="card-text">
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						</p>
+				        <!--<a href="#" class="btn btn-primary" disabled = "disabled">See </a>-->
+				    </div>
+				</div>						
+			</div>	
 		</div>
-		<div class="col-sm-4">
-			<div class="card" >
-			<img class="card-img-top" src="images/pic3.jpg" alt="Card image" style="width:100%">
-			   	<div class="card-body">
-			        <h4 class="card-title">Category 1</h4>
-			        <p class="card-text">
-			        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					</p>
-			        <!--<a href="#" class="btn btn-primary" disabled = "disabled">See </a>-->
-			    </div>
-			</div>						
-		</div>	
-	</div>
-</section>
+	</section>
+	<!----section2---->
+	<section id="section2">
+		<div class="section2_heading">
+			Our Process
+		</div>
+	    <div class="row">
+	    	<div class="col-sm-6">
+	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    		
+	    	</div>
+	    	<div class="col-sm-6">
+	    		<img src="images/smart_art.png" width="50%" class="m-auto p-1" style="display: block;"> 
+	    	</div>    	
+	    </div>	
+	</section>
 
-<section id="section2">
-	<div class="section2_heading">
-		Our Process
-	</div>
-    <div class="row">
-    	<div class="col-sm-6">
-    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    		
-    	</div>
-    	<div class="col-sm-6">
-    		<img src="images/smart_art.png" width="50%" style="margin: auto; display: block;">    		
-    	</div>    	
-    </div>	
-</section>
-
-<!--<div style="background-color:#2A293E;transform: skewY(3deg); width: 100%;height: 100px;transform: translate(0px,-40px); margin-bottom: 5%; "></div>-->
-<footer>
-	<div class="section2_heading">
-		Reach us
-	</div>
-	<div class="row">
-		<div class="col-sm-6">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<footer>
+		<div class="section2_heading">
+			Reach us
 		</div>
-		<div class="col-sm-6">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.627241806035!2d77.31272521744383!3d28.370117199999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdc6ddc0701df%3A0x8d9acfc7d0d3f1f7!2sEscorts+Mujesar!5e0!3m2!1sen!2sin!4v1554875213647!5m2!1sen!2sin" style="width: 100%; height: 300px;" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="row">
+			<div class="col-sm-6">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="col-sm-6 pt-2">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.627241806035!2d77.31272521744383!3d28.370117199999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdc6ddc0701df%3A0x8d9acfc7d0d3f1f7!2sEscorts+Mujesar!5e0!3m2!1sen!2sin!4v1554875213647!5m2!1sen!2sin" style="width: 100%; height: 300px;" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
 		</div>
-	</div>
-</footer>
+	</footer>
 
 <script>
 // set up text to print, each item in array is new line
@@ -202,7 +220,30 @@ function typewriter()
  }
 }
 typewriter();
+
 </script>
+<script>
+
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+/*------toggle------*/
+$(document).ready(function(){
+	$('.hm_togglea').click(function() {
+	    $('.hb_toggle').css("display","block");
+	});
+});
+$(document).ready(function(){
+	$('.hm_toggled').click(function() {
+	    $('.hb_toggle').css("display","none");
+	});
+});
+</script>
+
 
 </body>
 </html>

@@ -26,28 +26,14 @@ body{
 	background: #F0EDE5;
 }
 
-.navbar{
-	margin: 0.5em 3em;
-}
-
-/*
-nav {
-	padding: 0.5% 0.5%;
-	display: inline-block;
-	margin-top: 0%;
-	background-color: rgba(255, 255, 255,0.9);
-	position: fixed;
+.navbari{
+	padding:  0.5em 3em;
+	position:  fixed;
+	z-index: 2434;
 	width: 100%;
-	z-index: 2;	
+	background-color: rgba(255, 255, 255,0.95);
 }
 
-nav li{
-	list-style-type: none;
-	display: inline-block;
-	font-size: 20px;
-	padding-right: 1%;
-	float: right;
-}*/
 
 nav li a{
 	color: black;
@@ -59,22 +45,40 @@ nav li a{
 nav li a:hover{
 	color:#FF6F61;
 	text-decoration: none;
+	background-color: transparent !important;
+}
+.fas:hover{
+color:red !important;
 }
 nav li a.current{
 	color: #FF6F61;
 }
-
-nav ul{
-	display: inline-block;
-}
-
-.nav_e{
-	display: block;
+.fa-times{
+	float: right;
 }
 .nav_c{
-	display: none;
+	display: none;	
 }
 
+.hb_toggle{
+	position: fixed;
+	z-index: 9857340570438;
+	background-color: rgba(255, 255, 255,1);
+	width: 100%;
+	height: 100%;
+	display: none; 
+	padding: 0.5em 3em;
+
+}
+
+.hb_toggle_n{
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position: absolute;
+	 text-align: center;
+	 font-size: 2em;
+}
 .fixed_btn{
 	position: fixed;
 	z-index: 4;
@@ -108,30 +112,16 @@ nav ul{
 	bottom: 10px;
 	position: fixed;
 }
-.navbar-header{
-	float: left;
-}
+
 .navbar-brand{
-	/*width: 30%;
-	float: left;*/
 	box-sizing: border-box;
 	font-family: 'Pacifico', cursive;
-	
 	font-weight: normal;
 	color: #585858;
 	font-size:2em;
-
 }
-.navbar-nav{/*
-	width: 70%;
-	padding-top: 0.8%;
-	padding-right: 2%;
-
-	box-sizing: border-box;
-
-	*/
-	float: right;
-
+.fa-bars{
+	font-size: 1.5em;
 }
 .home_centre{
 	position: absolute;
@@ -144,81 +134,78 @@ nav ul{
 	font-weight: 100;
 }
 #myCarousel{
-	/*filter: blur(5px);*/
+	filter: blur(5px);
+
 }
 
 #typedtext{
 	font-family: "raleway";
 
 }
+.carousel {
+	height: 100%;
+	width: 100%;
+}
+.carousel-inner{
+	width: 100%;
+	height: 100%;
+}
   .carousel-inner img {
-      width: 100%;
+      width: 100% ;
       height: 100%;
   }
-.carousal-container {
-	height: 100%;
-	width: 100%;
-	margin: 0px;
-}
-
-.carousel, .carousel-inner {
-	height: 100%;
-	width: 100%;
-}
-
-
 
 /***************  SECTION1 ****************/
 #section1{
-	margin: 2% 5%;
+	margin: 2% 3%;
 }
 .section1_heading{
 	color: #121212;
 	font-family: raleway;
-	
-	font-size: 34px;
+	font-size: 2em;
 	margin: 1% 0%;
 }
 
 .card img{
-	border-top-right-radius: 10%;
-	border-top-left-radius: 10%;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
 }
 
 .card:hover{
-	transform: translateY(-20px);	
-	 box-shadow: 0px 9px 8px -7px black;
-}
-.col-sm-4{
-	padding: 2% 2%;
+	transform: scale(1.01);
+	 box-shadow: 0px 9px 8px -7px #000;
 }
 .card-title{
 	color: #121212;
-
+	font-size: 1.3em;
+}
+.card-body{
+	padding: 0.5em !important;
 }
 .card{
 	background-color: #fff;
 	color: #717171;
-	padding: 4%;
-	border-radius: 8%;
+	padding: 3%;
+	margin: 0.5em 0em;
+	border-radius: 2em;
 }
-.row:hover> .col-sm-4{
+.row:hover> .cardc{
 	opacity: 0.4;
 }
 
-.row:hover> .col-sm-4:hover{
+.row:hover> .cardc:hover{
 	opacity: 1;
 }
 
 
 /***************  SECTION2 ****************/
 #section2{
-	margin: 4% 5%;
+	margin: 2% 3%;
 }
 
 .section2_heading{
 	font-family: raleway;
-	font-size: 34px;
+	font-size: 2em;
 	margin: 1% 0%;
 }
 
@@ -226,7 +213,7 @@ nav ul{
 
 footer{
 	margin-top: 1%;
-	padding: 0% 5%;
+	padding: 0% 3%;
 	padding-bottom: 1%; 
 	background-color: #2A293E;
 	position: relative;
@@ -252,57 +239,58 @@ footer:before{
 
 /***************  CONTACT US ****************/
 
+.navbarhid{
+	display: block;
+}
+.navbarc{
+	padding:  0.5em 3em;
+	z-index: 2434;
+	width: 100%;
+	display: none;
+	background-color: rgba(255, 255, 255,0.95);
+}
 #contact_sec{
 	position: absolute;
 	z-index: 7;
-	font-size: 20px;
+	margin: 2% ;
+	width: 96%;
+	font-size: 1.2em;
 	font-weight: 300;
-	margin: 0% 5%;
+	overflow: hidden;
 	padding: 1% 2%;
-	margin-top: 7%;
 	background-color: rgba(255,255,255,0.5);
-	width: 90%;
-	border-radius: 25px;
-	height: 80%;
+	border-radius:1em;
 }
 
 
-#contact_sec form input {
+#contact_sec form input, textarea{
   outline: 0;
   background: transparent;
   border-width: 0 0 1px;
-  border-color: black;
+  border-color: #C0C0C0 !important;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #000000;
+  font-size: 1em;
+  padding: 5px 5px 0px 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#contact_sec form input:focus, textarea:focus{
+	background-color: rgba(255,255,255,0.4);
 }
 
 #contact_sec form input:hover{
-	font-size: 20px;
-	  transition: all 0.3s ease;
+    border-color: #000000 !important;
 }
 
 #contact_sec form input::placeholder{
-	font-size: 18px;
-	color: #606060;
+	font-size: 1em;
+	color: 	#808080 !important;
 	font-family: 'Montserrat', sans-serif; font-weight: 500;"
 }
 
-.input1{
-	margin-right:  3%;
-	margin-top: 3%;
-}
-
-.input2{
-	height: 80px;
-	width: 70%;
-	margin-bottom: 4%;
-}
-
-.input2:hover{
-		font-size: 20px;
-	  transition: all 0.3s ease;
-
+.con_fip{
+	width: 100%;
+	margin: 2% 0%;
 }
 
 #contact_sec form button{
@@ -310,13 +298,12 @@ footer:before{
 	background: transparent;
 	font-family:'Montserrat', sans-serif;
 	color: #2A293E;
-	font-size: 22px;
-	margin-left: 1%;
-	margin-top: 3%;
+	font-size: 1em;
+	margin: 2% 0%;
 	border:none;
 	display: block;
 	border:1px solid #2A293E;
-	border-radius: 10px;
+	border-radius: 0.5em;
 	
 }
 #contact_sec form button:hover{
@@ -325,6 +312,9 @@ footer:before{
 	box-shadow: 3px 2px 2px -1px #2E4A62;
 }
 
+.con_i, .con_i2, .con_iq, .con_i2q{
+	display: inline-block;
+}
 
 
 
@@ -388,27 +378,7 @@ footer:before{
   
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(43,43,43,0.6);
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
 
-.info_box:hover .overlay {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
 
 .text {
   color: white;
@@ -417,3 +387,22 @@ footer:before{
   padding: 2%;
  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
