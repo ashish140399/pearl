@@ -4,18 +4,21 @@
 <title>Harbans Industries</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
--->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<!-------BOOTSTRAP 4-------->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-----FONTAWESOME AND GOOGLE FONTS----->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,300,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 <style>
 * {box-sizing: border-box;}
 
@@ -44,40 +47,61 @@
 </head>
 <!-- External CSS-->
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="query.css">
 <body style="background-image: url(images/gra4.png);">	
-	<nav>
-		<ul id="nav1" >
-			Harbans Industries
-		</ul>	
-		<ul id="nav2">
-			<li><a href="contact.html">Contact Us</a></li>
-			<li>|</li>
-			<li><a href="products.html">Products</a></li>
-			<li>|</li>
-			<li><a href="index.html">Home</a></li>
-		</ul>		
+	<!--Navbar-->
+	<div class="navbarhid">	
+		<nav class="navbar navbar-expand-sm d-flex justify-content-between navbarc">
+			<!--div class="navbar-header"-->
+	      		<a class="navbar-brand" href="#">Harbans Industries</a>
+	   		<!--/div-->	
+			<ul class=" navbar-nav nav_e">
+				<li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+				<li class="nav-item"><a class="nav-link" href="contact.html" >Contact Us</a></li>			
+			</ul>	
+			<ul  class="nav navbar-nav nav_c">
+				<li><a class="disabled"><i class="fas fa-bars hm_togglea" ></i></a></li>	
+				
+			</ul>
+		</nav>
+	</div>
+
+	<!------navbar toggle-------->
+	<nav class="hb_toggle">
+		<div>
+			<ul class="navbar-nav justify-content-end mt-3">
+				<li><a class="nav-item hm_toggleda"><i class="fas fa-times hm_toggled" style="font-size:1.5em;"></i></a>
+				</li>
+			</ul>
+			<div class="hb_toggle_n">
+				<ul class="navbar-nav ">
+					<li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.html" >Contact Us</a></li>	
+				</ul>	
+			</div>
+		</div>
 	</nav>
 
 
 
 
 
-	<section style="padding-top: 7%;margin: 0% 4%;">
+	<section style="margin: 2% 3%;">
 		<div class="row">
-			<div class="col-sm-1" >
-				<img src="images/demo1.png" style="display: block;width: 100%; padding: 7px" onclick='changeImage("images/demo1.png")' >
-				<img src="images/demo2.png" style="display: block;width: 100%;  padding: 7px" onclick='changeImage("images/demo2.png")'>
+			<div class="col-md-1 col-sm-2" >
+				<img src="images/demo1.png" class="pdt_demo_img" onclick='changeImage("images/demo1.png")' >
+				<img src="images/demo2.png" class="pdt_demo_img" onclick='changeImage("images/demo2.png")'>
 				
 			</div>
-			<div class="col-sm-5">	
-				<div class="img-zoom-container" style="width: 400px;height:400px;" >	
-				<!--	<img src="images/demo1.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation1" >
-					<img src="images/demo2.png" style="display: block;width: 80%;height:auto;display: none; "  id="operation2" >-->
+			<div class="col-md-5  col-sm-4">	
+				<div class="img-zoom-container pd_cimg"  >	
 					<img src="images/demo1.png" id="myimage" onmouseover="runfunction()">				  
 				</div>
 			</div>	
 			
-			<div class="col-sm-6" id="elem3">
+			<div class="col-md-6 col-sm-6" id="elem3">
 				<div  id="elem2" style="display: block;">
 					<h1>pepi</h1>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -104,26 +128,7 @@ function runfunction(){
         imageZoom("myimage", "myresult");
 	 
 } 
- //   if(document.getElementById("myimage").src==document.getElementById("operation1").src){
-   // 	=imageZoom("operation1", "myresult");
-    //}
 
-
-/*
-        function showme2(){
-			
-			var x=document.getElementById('myimage');
-			var y=document.getElementById('operation2');
-			x.src=y.src;
-			return;
-        }
-		
-		function showme(){
-			var x=document.getElementById('myimage');
-			var y=document.getElementById('operation1');
-			x.src=y.src;		
-        }
-       */
         ///// w3school code starts here///////
 		function imageZoom(imgID, resultID) {	
 		  var img, lens, result, cx, cy;
@@ -214,6 +219,23 @@ function runfunction(){
 	      $("#myresult").css("opacity", "0");
 	    });
 
+	</script>
+	<script>
+		/*------toggle------*/
+$(document).ready(function(){
+	$('.hm_togglea').click(function() {
+	    $('.hb_toggle').css("display","block");
+	    $('.navbarhid').css("display","none");
+
+	});
+});
+$(document).ready(function(){
+	$('.hm_toggled').click(function() {
+	    $('.hb_toggle').css("display","none");
+	    $('.navbarhid').css("display","block");
+	});
+
+});
 	</script>
 </body>
 </html>
