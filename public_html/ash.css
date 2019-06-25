@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+body, html {
+  height: 100%;
+  background-image: linear-gradient(to right , #8b70be, #9076c2, #957bc6, #9a81ca, #9f87ce, #a690d2, #ae9ad5, #b5a3d9, #c0b2dd, #ccc1e1, #d7d1e5, #e3e0e9);
+
+
+  
+}
+
+
+.navbar-nav li a{
+	color:#fff;
+	font-size: 1.2em;
+	font-family: 'Karla';
+}
+
+.parallax{
+	background-image: url('images/plate4e.jpg');
+	height: 100%;
+	background-attachment: fixed;
+	 background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+.dropdown-menu a{
+	color: #000 !important;
+}
+
+.ashishnav.scrolled {
+  background-color:rgba(255,255,255,0.99) !important;
+  transition: background-color 200ms linear;
+}
+.ashishnav.scrolled .navbar-nav li a{
+	color: #65489D;
+}
+
+.blinking{
+    animation:blinkingText 2s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     opacity: 1;    }
+    49%{     opacity: 1; }
+    50%{     opacity: 0; }
+    99%{     opacity: 1;  }
+    100%{    opacity: 1;    }
+}
+
+.lisp li{
+	font-family:'karla';
+	margin: 5px 0px;
+}

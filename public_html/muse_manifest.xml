@@ -1,0 +1,573 @@
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hairology.com" resolutions="1x" timestamp="1531324526686">
+  <folder name="assets">
+    <file name="hairology---new-menu-board-3_18_rev_proof.pdf" crc="3820835327" seo="true" mt="1523461579000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="300319902"/>
+    <file name="master_a-master.css" crc="171809282" ref="employment:index:book-your-appointment:salon-services:photo-gallery:comments:virgin-hair:classes"/>
+    <file name="employment.css" crc="441515395" ref="employment"/>
+    <file name="index.css" crc="55507726" ref="index"/>
+    <file name="book-your-appointment.css" crc="90596757" ref="book-your-appointment"/>
+    <file name="salon-services.css" crc="49786391" ref="salon-services"/>
+    <file name="photo-gallery.css" crc="4199101867" ref="photo-gallery"/>
+    <file name="comments.css" crc="4211326048" ref="comments"/>
+    <file name="iefonts_comments.css" crc="150539048" ref="comments"/>
+    <file name="virgin-hair.css" crc="3972215826" ref="virgin-hair"/>
+    <file name="classes.css" crc="4099049608" ref="classes"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:tablet>index:tablet>virgin-hair:tablet>salon-services:tablet>refresher-group:tablet>make-any-appointment:tablet>photo-gallery:tablet>comments:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="museutils.js" crc="3803043152" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:tablet>index:tablet>virgin-hair:tablet>salon-services:tablet>refresher-group:tablet>make-any-appointment:tablet>photo-gallery:tablet>comments:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:tablet>index:tablet>virgin-hair:tablet>salon-services:tablet>refresher-group:tablet>make-any-appointment:tablet>photo-gallery:tablet>comments:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="museconfig.js" crc="380897831" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:tablet>index:tablet>virgin-hair:tablet>salon-services:tablet>refresher-group:tablet>make-any-appointment:tablet>photo-gallery:tablet>comments:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="jquery.watch.js" crc="99325471" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:tablet>index:tablet>virgin-hair:tablet>salon-services:tablet>refresher-group:tablet>make-any-appointment:tablet>photo-gallery:tablet>comments:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="webpro.js" crc="242022427" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:index:photo-gallery:comments:salon-services:employment:phone>classes"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:phone>classes"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="phone>index:phone>samples-of-work:index:photo-gallery:comments"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="phone>index:phone>samples-of-work:index:photo-gallery:comments"/>
+    <file name="touchswipe.js" crc="4066113679" ref="phone>index:phone>samples-of-work:index:photo-gallery:comments"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:tablet>index:tablet>virgin-hair:tablet>salon-services:tablet>refresher-group:tablet>make-any-appointment:tablet>photo-gallery:tablet>comments:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:phone>classes"/>
+    <file name="require.js" crc="4157109226" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:tablet>index:tablet>virgin-hair:tablet>salon-services:tablet>refresher-group:tablet>make-any-appointment:tablet>photo-gallery:tablet>comments:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes:phone>classes"/>
+    <file name="form_check.php" crc="147359589" ref="phone>samples-of-work:comments"/>
+    <file name="form_throttle.php" crc="93986428" ref="phone>samples-of-work:comments"/>
+    <file name="form_process.php" crc="3851993751" ref="phone>samples-of-work:comments"/>
+    <file name="form-u38991.php" crc="195455680" ref="phone>samples-of-work"/>
+    <file name="form-u11454.php" crc="60313689" ref="phone>contact-us"/>
+    <file name="form-u16631.php" crc="3946511282" ref="comments"/>
+    <file name="form-u38257.php" crc="3978241541" ref="salon-services"/>
+    <file name="form-u24525.php" crc="3983507521" ref="employment"/>
+  </folder>
+  <folder name="images">
+    <file name="visualeditor_-_icon_-_menusvg-u5932-3-fr.png" crc="219397401" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:phone>classes">
+      <caption webpage="index" alt=""/>
+      <caption webpage="classes" alt=""/>
+      <caption webpage="services" alt="Menu"/>
+      <caption webpage="refresher-group" alt=""/>
+    </file>
+    <file name="multiplication-symbol-icon-0910125830-u5932-3-a-fr.png" crc="3904718972" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:phone>classes">
+      <caption webpage="index" alt=""/>
+      <caption webpage="classes" alt=""/>
+      <caption webpage="services" alt="Menu"/>
+      <caption webpage="refresher-group" alt=""/>
+    </file>
+    <file name="320-plate-a.jpg" crc="3907061817" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:phone>services:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:index:photo-gallery:phone>classes"/>
+    <file name="320-plate-c.jpg" crc="3901612835" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="320-plate-b.jpg" crc="3860491663" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:phone>samples-of-work:index:photo-gallery"/>
+    <file name="logo.png" crc="4264012762" seo="true" ref="phone>index:phone>make-an-appointment:phone>samples-of-work:phone>contact-us:index:photo-gallery:comments:virgin-hair">
+      <caption webpage="make-an-appointment" alt=""/>
+      <caption webpage="make-an-appointment" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="insertflyer.jpg" crc="4277598867" seo="true" ref="phone>index:phone>contact-us">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="pasted-svg-82x81.svg" crc="193500288" seo="true" ref="phone>index:phone>contact-us:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes">
+      <caption webpage="classes" alt=""/>
+      <caption webpage="book-your-appointment" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="salon-services" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="employment" alt=""/>
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="pasted svg 82x81_poster_.png" crc="3889513455" ref="phone>index:index"/>
+    <file name="pasted-svg-81998x81.svg" crc="4024236969" seo="true" ref="phone>index:phone>contact-us:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes">
+      <caption webpage="classes" alt=""/>
+      <caption webpage="book-your-appointment" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="salon-services" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="employment" alt=""/>
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="pasted svg 81998x81_poster_.png" crc="3889513455" ref="phone>index:index"/>
+    <file name="pasted-svg-82x82.svg" crc="126420505" seo="true" ref="phone>index:phone>contact-us:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes">
+      <caption webpage="classes" alt=""/>
+      <caption webpage="book-your-appointment" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="salon-services" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="employment" alt=""/>
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="pasted svg 82x82_poster_.png" crc="3889513455" ref="phone>index:index"/>
+    <file name="pasted-svg-82.svg" crc="4151130012" seo="true" ref="phone>index:phone>contact-us:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes">
+      <caption webpage="classes" alt=""/>
+      <caption webpage="book-your-appointment" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="salon-services" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="employment" alt=""/>
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="pasted svg 82_poster_.png" crc="3889513455" ref="phone>index:index"/>
+    <file name="pasted-svg-82x822.svg" crc="507653092" seo="true" ref="phone>index:phone>contact-us:index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes">
+      <caption webpage="classes" alt=""/>
+      <caption webpage="book-your-appointment" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="salon-services" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="employment" alt=""/>
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="pasted svg 82x82_poster_2.png" crc="3889513455" ref="phone>index:index"/>
+    <file name="bg_hairologysalons760x507.jpg" crc="3777958235" ref="phone>index:phone>services:phone>classes">
+      <caption webpage="index" alt=""/>
+      <caption webpage="classes" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+    </file>
+    <file name="bg_hairologysalons640x427.jpg" crc="4156885771" ref="phone>index:phone>services:phone>classes">
+      <caption webpage="index" alt=""/>
+      <caption webpage="classes" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+    </file>
+    <file name="1.jpg" crc="468220304" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="ba2380x159.jpg" crc="324775699" seo="true" ref="phone>make-an-appointment">
+      <caption webpage="make-an-appointment" alt=""/>
+    </file>
+    <file name="ba2320x134.jpg" crc="3945016446" seo="true" ref="phone>make-an-appointment">
+      <caption webpage="make-an-appointment" alt=""/>
+    </file>
+    <file name="ba2.jpg" crc="3795038615" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="ba1.jpg" crc="3939442075" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="ba3.jpg" crc="3888942433" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="ba4.jpg" crc="520285065" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="ba5.jpg" crc="4073177765" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="bf5.jpg" crc="3827230069" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="img_2866.jpg" crc="435378397" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="img_3892326x444.jpg" crc="503721187" seo="true" ref="phone>samples-of-work">
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="img_2851.jpg" crc="11484331" seo="true" ref="phone>samples-of-work:photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="img_2866283x376.jpg" crc="236523135" seo="true" ref="phone>samples-of-work">
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="img_3892281x383.jpg" crc="4243753952" seo="true" ref="phone>samples-of-work">
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="img_2851283x376.jpg" crc="4169304267" seo="true" ref="phone>samples-of-work">
+      <caption webpage="samples-of-work" alt=""/>
+    </file>
+    <file name="la-crop-u33137.png" crc="4184883632" seo="true" ref="phone>contact-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="arrowmenudown.png" crc="262559161" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="salon-services" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="plate3.jpg" crc="407492314" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plate-2.jpg" crc="275778953" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plate1.jpg" crc="4270559059" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lower-banner.png" crc="180883437" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg_hairologysalons.jpg" crc="356967505" ref="index:book-your-appointment:photo-gallery:comments:virgin-hair:salon-services:employment:classes">
+      <caption webpage="classes" alt=""/>
+      <caption webpage="book-your-appointment" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="photo-gallery" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="refresher-group" alt=""/>
+      <caption webpage="salon-services" alt=""/>
+      <caption webpage="employment" alt=""/>
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="banner.jpg" crc="4293958259" seo="true" ref="book-your-appointment:employment">
+      <caption webpage="book-your-appointment" alt=""/>
+      <caption webpage="employment" alt=""/>
+    </file>
+    <file name="img_3892-crop-u39106.jpg" crc="248957132" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="yaki.png" crc="438213604" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="adobestock_80633577-crop-u16588.jpg" crc="3782870461" seo="true" ref="comments">
+      <caption webpage="comments" alt=""/>
+    </file>
+    <file name="bg-1.jpg" crc="3979543606" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="la.png" crc="222987916" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="dsc7553-crop-u15496.jpg" crc="155991926" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="newbanner.jpg" crc="3873900228" ref="salon-services">
+      <caption webpage="salon-services" alt=""/>
+    </file>
+    <file name="radiobuttonunchecked.png" crc="3976871150" ref="employment">
+      <caption webpage="employment" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedrollover.png" crc="4276313674" ref="employment">
+      <caption webpage="employment" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedmousedown.png" crc="54863585" ref="employment">
+      <caption webpage="employment" alt=""/>
+    </file>
+    <file name="radiobuttonchecked.png" crc="4193302265" ref="employment">
+      <caption webpage="employment" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedrollover.png" crc="88928956" ref="employment">
+      <caption webpage="employment" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedmousedown.png" crc="4280357799" ref="employment">
+      <caption webpage="employment" alt=""/>
+    </file>
+    <file name="logo-crop-u35153.png" crc="3810030505" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2.jpg" crc="3860346819" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="supersundaysemailhead.png" crc="133403267" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="supersundays368x369.png" crc="489528236" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="supersundays311x312.png" crc="4120071684" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="supersundays.png" crc="487582911" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="11.png" crc="4078955616" seo="true" ref="salon-services">
+      <caption webpage="salon-services" alt=""/>
+    </file>
+    <file name="12.png" crc="476519468" seo="true" ref="salon-services">
+      <caption webpage="salon-services" alt=""/>
+    </file>
+    <file name="img_2635.png" crc="496117154" seo="true" ref="phone>services:virgin-hair">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2637250x250.png" crc="4013861176" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2638250x250.png" crc="4170601098" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2639250x250.png" crc="44035712" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2641250x250.png" crc="3902443793" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2642250x250.png" crc="375702674" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2645250x250.png" crc="4036032026" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2662250x250.png" crc="3962836076" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2663250x250.png" crc="4240914090" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2667250x250.png" crc="4064207418" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2668250x250.png" crc="3780023628" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2669250x250.png" crc="4231408720" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2670250x250.png" crc="283553424" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2671250x250.png" crc="3820992431" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2673250x250.png" crc="4046843138" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2674250x250.png" crc="3958516499" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2715250x250.png" crc="3919810562" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2759 (1)250x250.png" crc="485027684" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2761250x250.png" crc="3849930926" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2762250x250.png" crc="4043514282" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2767250x250.png" crc="129882893" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2768250x250.png" crc="3962641238" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2766250x250.png" crc="4121480040" seo="true" ref="phone>services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="img_2637.png" crc="3765505254" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2638.png" crc="3936351286" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2639.png" crc="224584544" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2641.png" crc="3903868560" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2642.png" crc="4225424770" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2645.png" crc="388509696" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2662.png" crc="3851941384" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2663.png" crc="3786895163" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2669.png" crc="370742323" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2667.png" crc="4140670762" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2668.png" crc="3899909232" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2670.png" crc="68356567" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2671.png" crc="4068858187" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2673.png" crc="454221257" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2674.png" crc="3793323446" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2672.png" crc="9170602" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2715.png" crc="218755511" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2759 (1).png" crc="426711528" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2761.png" crc="12796710" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2762.png" crc="3857915700" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2766.png" crc="4224999177" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2767.png" crc="3946108220" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="img_2768.png" crc="72976481" seo="true" ref="virgin-hair">
+      <caption webpage="virgin-hair" alt=""/>
+    </file>
+    <file name="promparty18.jpg" crc="3895217935" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="promparty18368x516.jpg" crc="4236209093" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="promparty18311x436.jpg" crc="4161295805" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mayadvancelacefrontaligx.png" crc="351045240" seo="true" ref="classes">
+      <caption webpage="classes" alt=""/>
+    </file>
+    <file name="mayadvancelacefrontaligx364x364.png" crc="362799079" seo="true" ref="phone>classes">
+      <caption webpage="classes" alt=""/>
+    </file>
+    <file name="mayadvancelacefrontaligx303x303.png" crc="4101767801" seo="true" ref="phone>classes">
+      <caption webpage="classes" alt=""/>
+    </file>
+    <file name="img_26355x5.png" crc="3903481600" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_26385x5.png" crc="249225393" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="salon-services.css" crc="4021538510" ref="tablet>salon-services"/>
+      <file name="virgin-hair.css" crc="4021538510" ref="tablet>virgin-hair"/>
+      <file name="make-any-appointment.css" crc="4021538510" ref="tablet>make-any-appointment"/>
+      <file name="refresher-group.css" crc="4021538510" ref="tablet>refresher-group"/>
+      <file name="comments.css" crc="4021538510" ref="tablet>comments"/>
+      <file name="photo-gallery.css" crc="4021538510" ref="tablet>photo-gallery"/>
+      <file name="index.css" crc="4021538510" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="3950868239" seo="true" mt="1466692414343" redirect="false"/>
+    <file name="virgin-hair.html" crc="177235086" seo="true" mt="1466692414841" redirect="false"/>
+    <file name="salon-services.html" crc="171785706" seo="true" mt="1466692414872" redirect="false"/>
+    <file name="refresher-group.html" crc="4235455920" seo="true" mt="1523470044518" redirect="false"/>
+    <file name="make-any-appointment.html" crc="407123468" seo="true" mt="1466771352101" redirect="false"/>
+    <file name="photo-gallery.html" crc="3781682379" seo="true" mt="1466692414949" redirect="false"/>
+    <file name="comments.html" crc="4073244748" seo="true" mt="1466692414971" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="116310385" ref="phone>index:phone>services:phone>contact-us:phone>make-an-appointment:phone>samples-of-work:phone>classes"/>
+      <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="phone>index:phone>services:phone>contact-us:phone>make-an-appointment:phone>samples-of-work:phone>classes"/>
+      <file name="index.css" crc="4215873135" ref="phone>index"/>
+      <file name="nomq_index.css" crc="4030009381" ref="phone>index"/>
+      <file name="services.css" crc="4048026905" ref="phone>services"/>
+      <file name="nomq_services.css" crc="213174659" ref="phone>services"/>
+      <file name="contact-us.css" crc="3809047987" ref="phone>contact-us"/>
+      <file name="nomq_contact-us.css" crc="4181465990" ref="phone>contact-us"/>
+      <file name="make-an-appointment.css" crc="4281170913" ref="phone>make-an-appointment"/>
+      <file name="nomq_make-an-appointment.css" crc="4138371154" ref="phone>make-an-appointment"/>
+      <file name="samples-of-work.css" crc="3780018708" ref="phone>samples-of-work"/>
+      <file name="nomq_samples-of-work.css" crc="4101534659" ref="phone>samples-of-work"/>
+      <file name="classes.css" crc="444563215" ref="phone>classes"/>
+      <file name="nomq_classes.css" crc="138399740" ref="phone>classes"/>
+    </folder>
+    <file name="index.html" crc="3764970130" seo="true" mt="1526488460718" redirect="true"/>
+    <file name="services.html" crc="83887529" seo="true" mt="1527089985557" redirect="true"/>
+    <file name="make-an-appointment.html" crc="3832569695" seo="true" mt="1523470044473" redirect="true"/>
+    <file name="samples-of-work.html" crc="358102606" seo="true" mt="1523470044504" redirect="true"/>
+    <file name="contact-us.html" crc="4232570919" seo="true" mt="1523470044489" redirect="true"/>
+    <file name="classes.html" crc="3815337902" seo="true" mt="1527089559073" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4245960208" seo="true" mt="1531324087700" redirect="true"/>
+  <file name="book-your-appointment.html" crc="4187381722" seo="true" mt="1531324087700" redirect="true"/>
+  <file name="photo-gallery.html" crc="227135822" seo="true" mt="1531324087700" redirect="true"/>
+  <file name="comments.html" crc="512513951" seo="true" mt="1531324087700" redirect="true"/>
+  <file name="virgin-hair.html" crc="366372950" seo="true" mt="1531324087700" redirect="true"/>
+  <file name="salon-services.html" crc="3911823211" seo="true" mt="1531324357425" redirect="true"/>
+  <file name="employment.html" crc="419628075" seo="true" mt="1531324087700" redirect="true"/>
+  <file name="classes.html" crc="3826464653" seo="true" mt="1531324087700" redirect="true"/>
+</manifest>

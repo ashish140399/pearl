@@ -1,0 +1,40 @@
+[27-Mar-2019 13:44:36 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[27-Mar-2019 13:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vc_iconpicker_type_fontawesome() in /home/hscpadmin/public_html/lavish/wp-content/themes/hairdresser/functions.php:576
+Stack trace:
+#0 /home/hscpadmin/public_html/lavish/wp-includes/class-wp-hook.php(286): anps_get_icons_list('')
+#1 /home/hscpadmin/public_html/lavish/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/hscpadmin/public_html/lavish/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/hscpadmin/public_html/lavish/wp-admin/admin-ajax.php(167): do_action('wp_ajax_anps_ge...')
+#4 {main}
+  thrown in /home/hscpadmin/public_html/lavish/wp-content/themes/hairdresser/functions.php on line 576
+[27-Mar-2019 13:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vc_iconpicker_type_fontawesome() in /home/hscpadmin/public_html/lavish/wp-content/themes/hairdresser/functions.php:576
+Stack trace:
+#0 /home/hscpadmin/public_html/lavish/wp-includes/class-wp-hook.php(286): anps_get_icons_list('')
+#1 /home/hscpadmin/public_html/lavish/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/hscpadmin/public_html/lavish/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/hscpadmin/public_html/lavish/wp-admin/admin-ajax.php(167): do_action('wp_ajax_anps_ge...')
+#4 {main}
+  thrown in /home/hscpadmin/public_html/lavish/wp-content/themes/hairdresser/functions.php on line 576
+[27-Mar-2019 13:51:04 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[27-Mar-2019 13:51:41 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[27-Mar-2019 13:51:42 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[27-Mar-2019 13:51:42 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[27-Mar-2019 13:51:42 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[27-Mar-2019 13:51:43 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[27-Mar-2019 13:51:48 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[27-Mar-2019 13:57:47 UTC] PHP Warning:  sprintf(): Too few arguments in /home/hscpadmin/public_html/lavish/wp-admin/includes/class-bulk-upgrader-skin.php on line 153
+[29-Apr-2019 06:33:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 07:04:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 07:07:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 07:09:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 07:12:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 08:56:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:40:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:41:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:42:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:44:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:50:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:51:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:51:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:52:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[29-Apr-2019 12:58:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/hscpadmin/public_html/lavish/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152

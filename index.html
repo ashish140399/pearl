@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 <title>Harbans Industries</title>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-------BOOTSTRAP 4-------->
@@ -21,11 +22,24 @@
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>  
 </head>
-
 <!-- External CSS-->
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="query.css">
+<link rel="stylesheet" type="text/css" href="style.css?ver=1.0">
+<link rel="stylesheet" type="text/css" href="query.css?ver=1.0">
+<style>
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/loader1.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+</style>
 <body>
+	<div class="loader"></div>
+	<!-----try------>
+	<div class="se-pre-con"></div>
 	
 	<!--Navbar-->
 	<nav class="navbar navbar-expand-sm d-flex justify-content-between navbari">
@@ -184,8 +198,13 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		$(window).on('load',(function(){$(".loader").fadeOut("slow");}));
+	</script>
 
 <script>
+
+
 // set up text to print, each item in array is new line
 var aText = new Array(
 "YOU IMAGINE,",
